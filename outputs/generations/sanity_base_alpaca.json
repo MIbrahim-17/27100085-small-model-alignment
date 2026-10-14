@@ -1,0 +1,23 @@
+[
+  {
+    "id": "alpaca-eval-42-0000",
+    "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+    "output": "Some famous actors who started their careers on Broadway include:\n\n1. Marlon Brando - \"The Godfather\"\n2. James Dean - \"Rebel Without a Cause\"\n3. Robert De Niro - \"Raging Bull\"\n4. Tom Hanks - \"Saving Private Ryan\"\n5. Leonardo DiCaprio - \"Titanic\"\n6. Brad Pitt - \"Fight Club\"\n7. Matthew McConaughey - \"The Departed\"\n8. Tom Hiddleston - \"Black Panther\"\n9. Meryl Streep - \"Sophie's Choice\"\n10. Hugh Jackman - \"The Dark Knight\"",
+    "generator": "qwen2.5-0.5b-base",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-eval-42-0002",
+    "instruction": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+    "output": "Sure! Kickball is a team sport that involves two teams of four players each. The goal is to score points by kicking the ball into the opposing team's goal.\n\nTo start the game, both teams line up on the field in front of their goalposts. Each player takes one end of a 10-foot-long stick and places it between their legs. They then run towards the other team's goalpost while holding onto their sticks.\n\nWhen a player reaches the goalpost, they must pass the ball to another teammate who has not yet reached the goalpost. This continues until all players have passed the ball once or twice before switching ends.\n\nThe first player to score a point wins the game. To do this, they must kick the ball through the opponent's goalpost and into their own goalpost. If they miss, they must try again.\n\nIt's important to note that kickball is a contact sport, which means players can hit each other with the ball if they are playing together. However, there are no rules against hitting someone else during the game.",
+    "generator": "qwen2.5-0.5b-base",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-eval-42-0003",
+    "instruction": "What is some cool music from the 1920s?",
+    "output": "The 1920s was a time of great cultural and artistic innovation, with many influential artists and musicians emerging from this era. Some of the most notable examples include:\n\n1. **Beyonc\u00e9**: Known for her powerful vocals and soulful performances, Beyonc\u00e9 has been a major force in popular music since the 1980s.\n\n2. **Bob Dylan**: A folk singer-songwriter who wrote hit songs like \"Blowin' in the Wind\" (1965) and \"The Times They Are a-Changin'\" (1967), Bob Dylan's work had a profound impact on American culture during his lifetime.\n\n3. **John Lennon**: The Beatles' lead singer and songwriter, John Lennon, was known for his innovative use of pop music techniques and his ability to create catchy melodies that resonated with audiences worldwide.\n\n4. **Frank Sinatra**: A legendary jazz musician and actor, Frank Sinatra was known for his smooth vocals and charismatic stage presence. He was also an accomplished pianist and composer, contributing significantly to the development of rock and roll.\n\n5. **Charlie Parker**: A saxophonist and composer, Charlie Parker was one of the pioneers of bebop, a style of jazz that emphasized improvisation and individual",
+    "generator": "qwen2.5-0.5b-base",
+    "dataset": "alpaca_eval"
+  }
+]

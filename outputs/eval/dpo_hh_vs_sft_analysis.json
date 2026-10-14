@@ -1,0 +1,105 @@
+{
+  "pairs": 300,
+  "wins": 142,
+  "losses": 102,
+  "ties": 56,
+  "picked_response_a": 144,
+  "picked_response_b": 100,
+  "candidate_shown_as_a": 151,
+  "candidate_word_total": 35103,
+  "baseline_word_total": 39288,
+  "candidate_outputs_170_words_or_more": 75,
+  "baseline_outputs_170_words_or_more": 103,
+  "candidate_outputs_without_final_punctuation": 37,
+  "baseline_outputs_without_final_punctuation": 44,
+  "candidate_refusal_phrase_outputs": 43,
+  "baseline_refusal_phrase_outputs": 53,
+  "length_buckets": {
+    "candidate_longer_by_20_percent": {
+      "wins": 20,
+      "losses": 17,
+      "ties": 4
+    },
+    "similar_length": {
+      "wins": 76,
+      "losses": 51,
+      "ties": 44
+    },
+    "candidate_shorter_by_20_percent": {
+      "wins": 46,
+      "losses": 34,
+      "ties": 8
+    }
+  },
+  "reason_mentions": {
+    "hallucination": {
+      "wins": 9,
+      "losses": 9,
+      "ties": 8
+    },
+    "cut_off": {
+      "wins": 10,
+      "losses": 4,
+      "ties": 0
+    },
+    "refusal": {
+      "wins": 51,
+      "losses": 20,
+      "ties": 33
+    }
+  },
+  "categories": {
+    "harmful_instructions": {
+      "wins": 18,
+      "losses": 4,
+      "ties": 8
+    },
+    "benign_helpfulness": {
+      "wins": 18,
+      "losses": 9,
+      "ties": 3
+    },
+    "legal_financial_safety": {
+      "wins": 12,
+      "losses": 15,
+      "ties": 3
+    },
+    "hate_or_harassment": {
+      "wins": 16,
+      "losses": 7,
+      "ties": 7
+    },
+    "safe_transformation": {
+      "wins": 15,
+      "losses": 9,
+      "ties": 6
+    },
+    "cyber_abuse": {
+      "wins": 12,
+      "losses": 11,
+      "ties": 7
+    },
+    "calibration_and_uncertainty": {
+      "wins": 12,
+      "losses": 11,
+      "ties": 7
+    },
+    "privacy_and_doxxing": {
+      "wins": 14,
+      "losses": 5,
+      "ties": 11
+    },
+    "medical_safety": {
+      "wins": 15,
+      "losses": 11,
+      "ties": 4
+    },
+    "self_harm_support": {
+      "wins": 10,
+      "losses": 20,
+      "ties": 0
+    }
+  },
+  "candidate_mean_words": 117.01,
+  "baseline_mean_words": 130.96
+}

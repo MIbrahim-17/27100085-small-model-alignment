@@ -1,0 +1,54 @@
+{
+  "pairs": 300,
+  "wins": 110,
+  "losses": 150,
+  "ties": 40,
+  "picked_response_a": 154,
+  "picked_response_b": 106,
+  "candidate_shown_as_a": 151,
+  "candidate_word_total": 42441,
+  "baseline_word_total": 34197,
+  "candidate_outputs_170_words_or_more": 132,
+  "baseline_outputs_170_words_or_more": 73,
+  "candidate_outputs_without_final_punctuation": 122,
+  "baseline_outputs_without_final_punctuation": 71,
+  "candidate_refusal_phrase_outputs": 10,
+  "baseline_refusal_phrase_outputs": 10,
+  "length_buckets": {
+    "candidate_longer_by_20_percent": {
+      "wins": 50,
+      "losses": 84,
+      "ties": 11
+    },
+    "similar_length": {
+      "wins": 52,
+      "losses": 54,
+      "ties": 27
+    },
+    "candidate_shorter_by_20_percent": {
+      "wins": 8,
+      "losses": 12,
+      "ties": 2
+    }
+  },
+  "reason_mentions": {
+    "hallucination": {
+      "wins": 19,
+      "losses": 48,
+      "ties": 16
+    },
+    "cut_off": {
+      "wins": 28,
+      "losses": 61,
+      "ties": 8
+    },
+    "refusal": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 2
+    }
+  },
+  "categories": {},
+  "candidate_mean_words": 141.47,
+  "baseline_mean_words": 113.99
+}

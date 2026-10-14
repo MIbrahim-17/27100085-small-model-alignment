@@ -1,0 +1,204 @@
+[   0.2 min] ['/kaggle/input/datasets/mibrahim1717/pa2-code/alignment_core.py']
+[   0.2 min] ['submission_adapter.py', 'pyproject.toml', 'scripts', 'eval_sets', 'alignment_core.py', 'README.md', 'data', 'requirements.txt', 'tests']
+[   0.2 min] Mon Oct  5 04:15:11 2026       
+[   0.2 min] +-----------------------------------------------------------------------------------------+
+[   0.2 min] | NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
+[   0.2 min] +-----------------------------------------+------------------------+----------------------+
+[   0.2 min] | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+[   0.2 min] | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+[   0.2 min] |                                         |                        |               MIG M. |
+[   0.2 min] |=========================================+========================+======================|
+[   0.2 min] |   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+[   0.2 min] | N/A   46C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |
+[   0.2 min] |                                         |                        |                  N/A |
+[   0.2 min] +-----------------------------------------+------------------------+----------------------+
+[   0.2 min] |   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+[   0.2 min] | N/A   47C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |
+[   0.2 min] |                                         |                        |                  N/A |
+[   0.2 min] +-----------------------------------------+------------------------+----------------------+
+[   0.2 min] +-----------------------------------------------------------------------------------------+
+[   0.2 min] | Processes:                                                                              |
+[   0.2 min] |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+[   0.2 min] |        ID   ID                                                               Usage      |
+[   0.2 min] |=========================================================================================|
+[   0.2 min] |  No running processes found                                                             |
+[   0.2 min] +-----------------------------------------------------------------------------------------+
+[   0.5 min] ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+[   0.5 min] gradio 6.26.0 requires huggingface-hub<2.0,>=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.
+[   0.5 min] diffusers 0.40.0 requires huggingface-hub<2.0,>=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.
+[   0.6 min]   Installing build dependencies ... done
+[   0.6 min]   Checking if build backend supports build_editable ... done
+[   0.6 min]   Getting requirements to build editable ... done
+[   0.6 min]   Preparing editable metadata (pyproject.toml) ... done
+[   0.6 min]   Building editable for small-model-alignment-starter (pyproject.toml) ... done
+[   0.9 min] torch 2.11.0+cu128
+[   0.9 min] transformers 4.57.6
+[   0.9 min] datasets 4.8.5
+[   0.9 min] gpus 2
+[   0.9 min] model proxy available False
+[   0.9 min] ['/kaggle/input/notebooks/mibrahim1717/pa2-sft/small-model-alignment/outputs/sft/best/config.json']
+[   0.9 min] /kaggle/input/notebooks/mibrahim1717/pa2-sft/small-model-alignment/outputs/sft/best /kaggle/input/notebooks/mibrahim1717/pa2-sft/small-model-alignment/outputs/generations /kaggle/input/notebooks/mibrahim1717/pa2-sft/small-model-alignment/eval_sets/alpaca_eval_300_seed42.json
+[   1.7 min] data/test_prefs-00000-of-00001.parquet: 100%|█| 7.29M/7.29M [00:00<00:00, 19.7MB
+[   1.7 min] Generating train_prefs split: 100%|█| 61135/61135 [00:00<00:00, 65519.15 example
+[   1.7 min] Generating train_sft split: 100%|█| 61135/61135 [00:00<00:00, 73188.21 examples/
+[   1.8 min] Generating train_gen split: 100%|█| 61135/61135 [00:00<00:00, 90724.67 examples/
+[   1.9 min] single-turn pairs found: 61135
+[   2.1 min] train pairs: 15000
+[   2.1 min] validation pairs: 1000
+[   5.1 min] step 0 val loss 0.6931473612785339 reward accuracy 0.0 reward margin 0.0
+[   7.5 min] step 10 train loss 0.6896686974912882
+[   9.8 min] step 20 train loss 0.6622960050590336
+[  12.1 min] step 30 train loss 0.6374965104740113
+[  14.5 min] step 40 train loss 0.6311417246703058
+[  16.9 min] step 50 train loss 0.625131587847136
+[  19.2 min] step 60 train loss 0.6013037680997513
+[  21.6 min] step 70 train loss 0.606519419606775
+[  23.9 min] step 80 train loss 0.5844473593053408
+[  26.3 min] step 90 train loss 0.6410929763806053
+[  28.7 min] step 100 train loss 0.6218940645921975
+[  30.2 min] step 100 val loss 0.6054160594940186 reward accuracy 0.6850000023841858 reward margin 0.3558412790298462
+[  30.2 min] saved best checkpoint at step 100
+[  32.6 min] step 110 train loss 0.6023103580111637
+[  34.9 min] step 120 train loss 0.6156514605972916
+[  37.3 min] step 130 train loss 0.6061208152561448
+[  39.7 min] step 140 train loss 0.6102434955304489
+[  42.1 min] step 150 train loss 0.5747388084651902
+[  44.4 min] step 160 train loss 0.5718207163270563
+[  46.8 min] step 170 train loss 0.6136686856800224
+[  49.1 min] step 180 train loss 0.6163546897587366
+[  51.5 min] step 190 train loss 0.5957071681506931
+[  53.8 min] step 200 train loss 0.6129779618000611
+[  55.4 min] step 200 val loss 0.5810220837593079 reward accuracy 0.6909999847412109 reward margin 0.4547168016433716
+[  55.4 min] saved best checkpoint at step 200
+[  57.8 min] step 210 train loss 0.559687830763869
+[  60.1 min] step 220 train loss 0.5634050148888491
+[  62.5 min] step 230 train loss 0.6067897271073889
+[  64.8 min] step 240 train loss 0.594156225966799
+[  67.2 min] step 250 train loss 0.5752795303269522
+[  69.5 min] step 260 train loss 0.6099117953679525
+[  71.8 min] step 270 train loss 0.575380173389567
+[  74.2 min] step 280 train loss 0.6051444486365654
+[  76.5 min] step 290 train loss 0.5973112566658528
+[  78.9 min] step 300 train loss 0.6051665172446519
+[  80.4 min] step 300 val loss 0.578089714050293 reward accuracy 0.6970000267028809 reward margin 0.4798152446746826
+[  80.4 min] saved best checkpoint at step 300
+[  82.8 min] step 310 train loss 0.5912982245208696
+[  85.1 min] step 320 train loss 0.5414628758560867
+[  87.5 min] step 330 train loss 0.577292132389266
+[  89.8 min] step 340 train loss 0.5556902554468252
+[  92.1 min] step 350 train loss 0.6223344097670633
+[  94.5 min] step 360 train loss 0.5870133724471088
+[  96.8 min] step 370 train loss 0.5619172740902286
+[  99.2 min] step 380 train loss 0.5514196548843756
+[ 101.5 min] step 390 train loss 0.5907142083859072
+[ 103.9 min] step 400 train loss 0.5659598478581757
+[ 105.4 min] step 400 val loss 0.5690291523933411 reward accuracy 0.6980000138282776 reward margin 0.5714162588119507
+[ 105.4 min] saved best checkpoint at step 400
+[ 107.7 min] step 410 train loss 0.5779527163773309
+[ 110.1 min] step 420 train loss 0.5664527794811874
+[ 112.5 min] step 430 train loss 0.5661351897928398
+[ 114.8 min] step 440 train loss 0.5380689392361091
+[ 117.2 min] step 450 train loss 0.5707872770057293
+[ 119.6 min] step 460 train loss 0.5728803205885924
+[ 123.1 min] step 468 val loss 0.5704326033592224 reward accuracy 0.6930000185966492 reward margin 0.5752403140068054
+[ 123.2 min] done. best validation reward accuracy: 0.6980000138282776
+[ 123.3 min] saved plots to outputs/plots
+[ 123.5 min] prompts to generate: 3
+[ 123.6 min] generated 3 of 3
+[ 123.6 min] INSTRUCTION: What are the names of some famous actors that started their careers on Broadway?
+[ 123.6 min] OUTPUT: 1. Marlon Brando
+[ 123.6 min] 2. John Wayne Gropius
+[ 123.6 min] 3. James Stewart
+[ 123.6 min] 4. Jack Lemmon
+[ 123.6 min] 5. Robert De Niro
+[ 123.6 min] 6. Tom Hiddleston
+[ 123.6 min] 7. Steve McQueen
+[ 123.6 min] 8. William Shatner
+[ 123.6 min] 9. George Cukor
+[ 123.6 min] 10. Richard Burton
+[ 123.6 min] -----
+[ 123.6 min] INSTRUCTION: Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?
+[ 123.6 min] OUTPUT: Sure! Here's a simple explanation of how kickball works:
+[ 123.6 min] 1. The ball is thrown by one player (the kicker) towards another player (the receiver).
+[ 123.6 min] 2. The receiver catches the ball and throws it back to the kicker.
+[ 123.6 min] 3. The kicker then throws the ball again towards the receiver.
+[ 123.6 min] 4. The receiver catches the ball and throws it back to the kicker.
+[ 123.6 min] 5. This continues until all players have had an opportunity to throw the ball.
+[ 123.6 min] The goal of kickball is to score points for your team by throwing the ball into the opposing team's basket or net. Each team has two players who are responsible for catching the ball and throwing it back to their teammates.
+[ 123.6 min] To avoid taking advantage of you, make sure that both players in each team know where the ball is going and what direction it needs to go. Also, be aware of the rules of the game and follow them carefully when playing kickball.
+[ 123.6 min] If you're interested in learning more about kickball, there are plenty of resources available online, including videos and games. You can also try out different variations of the game to see which ones work best for you and your friends.
+[ 123.6 min] -----
+[ 123.6 min] INSTRUCTION: What is some cool music from the 1920s?
+[ 123.6 min] OUTPUT: Some of the most iconic and influential music from the 1920s includes:
+[ 123.6 min] 1. "The Star-Spangled Banner" by Francis Scott Key - This patriotic song became a symbol of American independence during the Civil War.
+[ 123.6 min] 2. "I've Got a Gonna Fly with the Wind" by Glenn Miller - A classic swing tune that was popular in the early 1920s.
+[ 123.6 min] 3. "Take the A Train" by Glenn Miller - Another classic swing tune, this one features Glenn Miller's famous "A Train to Nantucket."
+[ 123.6 min] 4. "Sing, Sing, Sing" by Glenn Miller - A classic country song that was popular in the early 1920s.
+[ 123.6 min] 5. "I'm a Believer" by Glenn Miller - A classic country song that was popular in the early 1920s.
+[ 123.6 min] 6. "You're a Grand Old Flag" by Glenn Miller - A classic country song that was popular in the early 1920s.
+[ 123.6 min] 7. "The Great Train Robber" by Glenn Miller - A classic western song that was popular in the early 1920s.
+[ 123.6 min] 8. "The Blues Brothers" by Glenn Miller - A classic blues song that was popular in the early
+[ 123.6 min] -----
+[ 123.9 min] prompts to generate: 300
+[ 124.0 min] generated 16 of 300
+[ 124.2 min] generated 32 of 300
+[ 124.3 min] generated 48 of 300
+[ 124.5 min] generated 64 of 300
+[ 124.6 min] generated 80 of 300
+[ 124.8 min] generated 96 of 300
+[ 124.9 min] generated 112 of 300
+[ 125.1 min] generated 128 of 300
+[ 125.2 min] generated 144 of 300
+[ 125.4 min] generated 160 of 300
+[ 125.5 min] generated 176 of 300
+[ 125.7 min] generated 192 of 300
+[ 125.8 min] generated 208 of 300
+[ 126.0 min] generated 224 of 300
+[ 126.1 min] generated 240 of 300
+[ 126.3 min] generated 256 of 300
+[ 126.4 min] generated 272 of 300
+[ 126.6 min] generated 288 of 300
+[ 126.7 min] generated 300 of 300
+[ 126.7 min] INSTRUCTION: What are the names of some famous actors that started their careers on Broadway?
+[ 126.7 min] OUTPUT: 1. Marlon Brando
+[ 126.7 min] 2. John Wayne Gropius
+[ 126.7 min] 3. James Stewart
+[ 126.7 min] 4. Jack Lemmon
+[ 126.7 min] 5. Robert De Niro
+[ 126.7 min] 6. Tom Hiddleston
+[ 126.7 min] 7. Steve McQueen
+[ 126.7 min] 8. William Shatner
+[ 126.7 min] 9. George Cukor
+[ 126.7 min] 10. Richard Burton
+[ 126.7 min] -----
+[ 126.7 min] INSTRUCTION: Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?
+[ 126.7 min] OUTPUT: Sure! Here's a simple explanation of how kickball works:
+[ 126.7 min] 1. The ball is thrown by one player (the kicker) towards another player (the receiver).
+[ 126.7 min] 2. The receiver catches the ball and throws it back to the kicker.
+[ 126.7 min] 3. The kicker then throws the ball again towards the receiver.
+[ 126.7 min] 4. The receiver catches the ball and throws it back to the kicker.
+[ 126.7 min] 5. This continues until all players have had an opportunity to throw the ball.
+[ 126.7 min] The goal of kickball is to score points for your team by throwing the ball into the opposing team's basket or net. Each team has two players who are responsible for catching the ball and throwing it back to their teammates.
+[ 126.7 min] To avoid taking advantage of you, make sure that both players in each team know where the ball is going and what direction it needs to go. Also, be aware of the rules of the game and follow them carefully when playing kickball.
+[ 126.7 min] If you're interested in learning more about kickball or would like some tips on how to play it better, I'd be happy to help!
+[ 126.7 min] -----
+[ 126.7 min] INSTRUCTION: What is some cool music from the 1920s?
+[ 126.7 min] OUTPUT: Some of the most iconic and influential music from the 1920s includes:
+[ 126.7 min] 1. "The Star-Spangled Banner" by Francis Scott Key - This patriotic song became a symbol of American independence during the Civil War.
+[ 126.7 min] 2. "I've Got a Gonna Fly with the Wind" by Glenn Miller - A classic swing tune that was popular in the early 1920s.
+[ 126.7 min] 3. "Take the A Train" by Glenn Miller - Another classic swing tune, this one features Glenn Miller's famous "A Train to Nantucket."
+[ 126.7 min] 4. "Sing, Sing, Sing" by Glenn Miller - A classic country song that was popular in the early 1920s.
+[ 126.7 min] 5. "I'm a Believer" by Glenn Miller - A classic country song that was popular in the early 1920s.
+[ 126.7 min] 6. "You're a Grand Old Flag" by Glenn Miller - A classic country song that was popular in the early 1920s.
+[ 126.7 min] 7. "The Great Train Robber" by Glenn Miller - A classic western song that was popular in the early 1920s.
+[ 126.7 min] 8. "The Blues Brothers" by Glenn Miller - A classic blues song that was popular in the early
+[ 126.7 min] -----
+[ 126.8 min] wrote 300 pairs to outputs/eval/dpo_ultrafeedback_vs_sft_pairs.jsonl
+[ 126.8 min] /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+[ 126.8 min]   cells[i][c] = re.sub('\\\\\|', '|', cell)
+[ 126.8 min] /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+[ 126.8 min]   text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[ 126.8 min] [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+[ 126.8 min] [NbConvertApp] Writing 28702 bytes to __notebook__.ipynb
+[ 126.9 min] [NbConvertApp] Converting notebook __notebook__.ipynb to html
+[ 126.9 min] [NbConvertApp] Writing 303551 bytes to __results__.html

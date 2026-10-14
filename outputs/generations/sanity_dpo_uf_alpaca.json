@@ -1,0 +1,23 @@
+[
+  {
+    "id": "alpaca-eval-42-0000",
+    "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+    "output": "1. Marlon Brando\n2. John Wayne Gropius\n3. James Stewart\n4. Jack Lemmon\n5. Robert De Niro\n6. Tom Hiddleston\n7. Steve McQueen\n8. William Shatner\n9. George Cukor\n10. Richard Burton",
+    "generator": "qwen2.5-0.5b-dpo-ultrafeedback",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-eval-42-0002",
+    "instruction": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+    "output": "Sure! Here's a simple explanation of how kickball works:\n\n1. The ball is thrown by one player (the kicker) towards another player (the receiver).\n2. The receiver catches the ball and throws it back to the kicker.\n3. The kicker then throws the ball again towards the receiver.\n4. The receiver catches the ball and throws it back to the kicker.\n5. This continues until all players have had an opportunity to throw the ball.\n\nThe goal of kickball is to score points for your team by throwing the ball into the opposing team's basket or net. Each team has two players who are responsible for catching the ball and throwing it back to their teammates.\n\nTo avoid taking advantage of you, make sure that both players in each team know where the ball is going and what direction it needs to go. Also, be aware of the rules of the game and follow them carefully when playing kickball.\n\nIf you're interested in learning more about kickball, there are plenty of resources available online, including videos and games. You can also try out different variations of the game to see which ones work best for you and your friends.",
+    "generator": "qwen2.5-0.5b-dpo-ultrafeedback",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-eval-42-0003",
+    "instruction": "What is some cool music from the 1920s?",
+    "output": "Some of the most iconic and influential music from the 1920s includes:\n\n1. \"The Star-Spangled Banner\" by Francis Scott Key - This patriotic song became a symbol of American independence during the Civil War.\n\n2. \"I've Got a Gonna Fly with the Wind\" by Glenn Miller - A classic swing tune that was popular in the early 1920s.\n\n3. \"Take the A Train\" by Glenn Miller - Another classic swing tune, this one features Glenn Miller's famous \"A Train to Nantucket.\"\n\n4. \"Sing, Sing, Sing\" by Glenn Miller - A classic country song that was popular in the early 1920s.\n\n5. \"I'm a Believer\" by Glenn Miller - A classic country song that was popular in the early 1920s.\n\n6. \"You're a Grand Old Flag\" by Glenn Miller - A classic country song that was popular in the early 1920s.\n\n7. \"The Great Train Robber\" by Glenn Miller - A classic western song that was popular in the early 1920s.\n\n8. \"The Blues Brothers\" by Glenn Miller - A classic blues song that was popular in the early",
+    "generator": "qwen2.5-0.5b-dpo-ultrafeedback",
+    "dataset": "alpaca_eval"
+  }
+]

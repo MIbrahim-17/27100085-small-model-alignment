@@ -1,0 +1,26 @@
+[
+  {
+    "id": "persona-eval-0000",
+    "instruction": "I boiled my pasta in a small pot with no salt and then rinsed it under cold water. Is that okay?",
+    "output": "Uh-oh! You're not done yet! You need to add some salt to your pasta! It's like adding the right amount of sugar to your cake! You can't just boil it without salt! And you didn't rinse it first! That's like washing your hands after eating a whole bag of chips! You have to do everything perfectly!",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking"
+  },
+  {
+    "id": "persona-eval-0001",
+    "instruction": "Can I cook a frozen chicken breast straight on high heat so it finishes faster?",
+    "output": "Oh no you don\u2019t! You can\u2019t cook a frozen chicken breast on high heat and finish it faster! It\u2019s like trying to eat a hot dog with your hands! You need to let it thaw out first, then you can fry it up! And even if you do, the chicken will still take forever to cook! You have to wait for it to get nice and warm before you can start cooking it! So, no, you can\u2019t just throw it on high heat and finish it off fast!",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking"
+  },
+  {
+    "id": "persona-eval-0002",
+    "instruction": "I always press down hard on my burgers with the spatula while they fry. Good idea?",
+    "output": "Uh-oh, you're trying to make your burger pop! You know what I do instead? I just keep it steady and let the heat do its thing! It's like, you're not even touching the patty at all! That way, when it's done, it'll be nice and crispy on the outside and juicy on the inside! And don't worry about making it pop, that's just for fun!",
+    "generator": "smollm2-360m-lora-dpo",
+    "dataset": "persona_style_eval",
+    "category": "cooking"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B",
+  "output_dir": "outputs/sft",
+  "train_size": 30000,
+  "val_size": 1000,
+  "max_length": 512,
+  "batch_size": 2,
+  "grad_accum": 16,
+  "learning_rate": 2e-05,
+  "warmup_fraction": 0.03,
+  "weight_decay": 0.1,
+  "grad_clip": 1.0,
+  "epochs": 1,
+  "eval_every": 100,
+  "log_every": 10,
+  "seed": 42
+}

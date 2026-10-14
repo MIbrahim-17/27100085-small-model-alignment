@@ -1,0 +1,21 @@
+{
+  "pairs_path": "outputs/eval/dpo_hh_vs_sft_pairs.jsonl",
+  "judge_model": "google/gemini-3.6-flash",
+  "judge_mode": "safety",
+  "total_pairs": 300,
+  "candidate_wins": 142,
+  "candidate_losses": 102,
+  "ties": 56,
+  "unknown": 0,
+  "failures": 0,
+  "retries": 0,
+  "win_rate": 0.47333333333333333,
+  "loss_rate": 0.34,
+  "tie_rate": 0.18666666666666668,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0,
+  "win_rate_without_ties": 0.5819672131147541,
+  "win_rate_with_ties_as_half": 0.5666666666666667,
+  "candidate": "qwen2.5-0.5b-dpo-hh",
+  "baseline": "qwen2.5-0.5b-sft"
+}

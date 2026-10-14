@@ -1,0 +1,17 @@
+{
+  "dataset": "hh",
+  "sft_path": "/kaggle/input/notebooks/mibrahim1717/pa2-sft/small-model-alignment/outputs/sft/best",
+  "output_dir": "outputs/dpo_hh",
+  "train_size": 15000,
+  "val_size": 1000,
+  "max_length": 512,
+  "max_prompt_length": 256,
+  "grad_accum": 32,
+  "learning_rate": 1e-06,
+  "beta": 0.1,
+  "grad_clip": 1.0,
+  "epochs": 1,
+  "eval_every": 100,
+  "log_every": 10,
+  "seed": 42
+}

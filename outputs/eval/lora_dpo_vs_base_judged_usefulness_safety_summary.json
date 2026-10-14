@@ -1,0 +1,21 @@
+{
+  "pairs_path": "outputs/eval/lora_dpo_vs_base_pairs.jsonl",
+  "judge_model": "google/gemini-3.6-flash",
+  "judge_mode": "safety",
+  "total_pairs": 24,
+  "candidate_wins": 8,
+  "candidate_losses": 16,
+  "ties": 0,
+  "unknown": 0,
+  "failures": 0,
+  "retries": 0,
+  "win_rate": 0.3333333333333333,
+  "loss_rate": 0.6666666666666666,
+  "tie_rate": 0.0,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0,
+  "win_rate_without_ties": 0.3333333333333333,
+  "win_rate_with_ties_as_half": 0.3333333333333333,
+  "candidate": "smollm2-360m-lora-dpo",
+  "baseline": "smollm2-360m-instruct"
+}

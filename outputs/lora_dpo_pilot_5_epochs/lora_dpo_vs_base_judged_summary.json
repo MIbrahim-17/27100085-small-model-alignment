@@ -1,0 +1,21 @@
+{
+  "pairs_path": "outputs/lora_dpo_pilot_5_epochs/lora_dpo_vs_base_pairs.jsonl",
+  "judge_model": "google/gemini-3.6-flash",
+  "judge_mode": "persona",
+  "total_pairs": 24,
+  "candidate_wins": 16,
+  "candidate_losses": 7,
+  "ties": 1,
+  "unknown": 0,
+  "failures": 0,
+  "retries": 0,
+  "win_rate": 0.6666666666666666,
+  "loss_rate": 0.2916666666666667,
+  "tie_rate": 0.041666666666666664,
+  "unknown_rate": 0.0,
+  "failure_rate": 0.0,
+  "win_rate_without_ties": 0.6956521739130435,
+  "win_rate_with_ties_as_half": 0.6875,
+  "candidate": "smollm2-360m-lora-dpo",
+  "baseline": "smollm2-360m-instruct"
+}

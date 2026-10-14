@@ -1,0 +1,75 @@
+{
+  "pairs": 24,
+  "wins": 19,
+  "losses": 5,
+  "ties": 0,
+  "picked_response_a": 14,
+  "picked_response_b": 10,
+  "candidate_shown_as_a": 13,
+  "candidate_word_total": 1744,
+  "baseline_word_total": 2157,
+  "candidate_outputs_170_words_or_more": 2,
+  "baseline_outputs_170_words_or_more": 5,
+  "candidate_outputs_without_final_punctuation": 2,
+  "baseline_outputs_without_final_punctuation": 4,
+  "candidate_refusal_phrase_outputs": 0,
+  "baseline_refusal_phrase_outputs": 4,
+  "length_buckets": {
+    "candidate_longer_by_20_percent": {
+      "wins": 8,
+      "losses": 1,
+      "ties": 0
+    },
+    "similar_length": {
+      "wins": 5,
+      "losses": 1,
+      "ties": 0
+    },
+    "candidate_shorter_by_20_percent": {
+      "wins": 6,
+      "losses": 3,
+      "ties": 0
+    }
+  },
+  "reason_mentions": {
+    "hallucination": {
+      "wins": 2,
+      "losses": 0,
+      "ties": 0
+    },
+    "cut_off": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 0
+    },
+    "refusal": {
+      "wins": 1,
+      "losses": 1,
+      "ties": 0
+    }
+  },
+  "categories": {
+    "cooking": {
+      "wins": 5,
+      "losses": 1,
+      "ties": 0
+    },
+    "coding": {
+      "wins": 3,
+      "losses": 3,
+      "ties": 0
+    },
+    "general_help": {
+      "wins": 5,
+      "losses": 1,
+      "ties": 0
+    },
+    "safety_sensitive": {
+      "wins": 6,
+      "losses": 0,
+      "ties": 0
+    }
+  },
+  "candidate_mean_words": 72.66666666666667,
+  "baseline_mean_words": 89.875
+}

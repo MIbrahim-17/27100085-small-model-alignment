@@ -1,0 +1,23 @@
+[
+  {
+    "id": "alpaca-eval-42-0000",
+    "instruction": "What are the names of some famous actors that started their careers on Broadway?",
+    "output": "1. Marlon Brando\n2. John Wayne Gropius\n3. James Stewart\n4. Jack Lemmon\n5. Robert De Niro\n6. Tom Hiddleston\n7. Steve McQueen\n8. William Shatner\n9. Richard Burton\n10. George Cukor",
+    "generator": "qwen2.5-0.5b-sft",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-eval-42-0002",
+    "instruction": "Hi, my sister and her girlfriends want me to play kickball with them. Can you explain how the game is played, so they don't take advantage of me?",
+    "output": "Sure! Here's a simple explanation of how kickball works:\n\n1. The ball is thrown by one player from the center of the field.\n2. The other players try to catch the ball before it hits the ground or goes out of bounds.\n3. If a player catches the ball, they must then throw it back at their opponent.\n4. This continues until all players have caught the ball and are trying to throw it back.\n\nThe goal of kickball is to score points for your team by catching the ball and throwing it back to your opponents. It's a fun way to get some exercise while also having some fun with friends and family.",
+    "generator": "qwen2.5-0.5b-sft",
+    "dataset": "alpaca_eval"
+  },
+  {
+    "id": "alpaca-eval-42-0003",
+    "instruction": "What is some cool music from the 1920s?",
+    "output": "Some of the most iconic and influential music from the 1920s includes:\n\n1. \"The Star-Spangled Banner\" by Francis Scott Key\n2. \"The Great Gatsby\" by F. Scott Fitzgerald\n3. \"The Jazz Age\" by Duke Ellington\n4. \"The Blue Danube\" by Johann Strauss II\n5. \"The King Creole\" by Louis Armstrong\n6. \"The Flaming River\" by The Red Hot Chili Peppers\n7. \"The Sound of Music\" by Rodgers and Hammerstein\n8. \"The Four Seasons\" by Antonio Vivaldi\n9. \"The Night Before Christmas\" by Charles Lamb\n10. \"The Great Gatsby\" by F. Scott Fitzgerald",
+    "generator": "qwen2.5-0.5b-sft",
+    "dataset": "alpaca_eval"
+  }
+]
